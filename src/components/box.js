@@ -3,16 +3,19 @@
 import * as THREE from 'three';
 import { useEffect, useRef } from 'react';
 
-const HomeBox = (classes) => {
+const HomeBox = () => {
     const ref = useRef(null);
 
     useEffect(() => {
+        const width = window.innerWidth;
+        const height = 2 * window.innerHeight;
+
         var scene = new THREE.Scene();
-        var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
-            camera.position.z = 2
-            camera.position.x = -1.4
+        var camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000)
+            camera.position.z = 2;
+            camera.position.y = -.5;
         var renderer = new THREE.WebGLRenderer();
-            renderer.setSize(window.innerWidth, window.innerHeight)
+            renderer.setSize(width, height)
 
         ref.current && ref.current.append(renderer.domElement);
 
@@ -36,7 +39,7 @@ const HomeBox = (classes) => {
     });
     
     return(
-        <div ref={ref} className={classes}/>
+        <div ref={ref}/>
     )
 }
 

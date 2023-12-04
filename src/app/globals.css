@@ -32,14 +32,44 @@ h1 {
   padding-left: 48px;
 }
 
+p {
+  padding-left: 48px;
+  font-size: 18px;
+}
+
 section {
   height: 100vh;
+  /* overflow: hidden; */
 }
 
-HomeBox {
-  position: absolute;
+.top {
+  display: flex;
+  z-index: 1;
 }
 
-.home-title {
+.top-circle {
   position: absolute;
+  z-index: 0;
+}
+
+.home-text {
+  display: grid;
+  align-items: center;
+  z-index: 2;
+}
+
+@media only screen and (min-width: 800px) {
+  .home-text {
+    min-width: 600px;
+  }
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+  padding-left: 48px;
+}
+
+.second {
+  z-index: 2;
 }
