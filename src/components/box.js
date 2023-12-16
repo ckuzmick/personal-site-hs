@@ -13,7 +13,7 @@ const HomeBox = () => {
         var scene = new THREE.Scene();
         var camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000)
             camera.position.z = 2;
-            camera.position.y = -.5;
+            camera.position.y = -.8;
         var renderer = new THREE.WebGLRenderer();
             renderer.setSize(width, height)
 

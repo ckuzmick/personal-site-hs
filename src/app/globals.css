@@ -44,7 +44,7 @@ section {
 
 .top {
   display: flex;
-  z-index: 1;
+  z-index: 0;
 }
 
 .top-circle {
@@ -71,5 +71,22 @@ h2 {
 }
 
 .second {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 800;
+  padding-top: 48px;
+}
+
+.second-text {
+  display: grid;
+  align-items: center;
   z-index: 2;
 }

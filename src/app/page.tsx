@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import HomeBox from '@/components/box'
+import Skill from '@/components/skill'
 
 export default function Home() {
   return (
@@ -16,7 +17,12 @@ export default function Home() {
         </div>
       </section>
       <section className='second'>
-        <h2 className='header'>Skills:</h2>
+        <div className='second-text'>
+          <h2 className='header'>Skills:</h2>
+          <div className='skills'>
+
+          </div>
+        </div>
       </section>
     </main>
   )
