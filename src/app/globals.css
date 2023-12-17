@@ -83,10 +83,28 @@ h2 {
   font-size: 64px;
   font-weight: 800;
   padding-top: 48px;
+  padding-left: 0;
 }
 
 .second-text {
   display: grid;
   align-items: center;
   z-index: 2;
+  padding: 0 48px;
+}
+
+.skills {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+}
+
+.skill-icon {
+  transition: transform 0.2s ;
+  padding: 5px;
+}
+
+.skill-icon:hover {
+  transform: translate(0, -5px);
+  cursor: pointer;
 }

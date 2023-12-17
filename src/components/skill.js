@@ -1,12 +1,11 @@
-import Image from 'next/image';
-import React from 'react';
+import React from "react";
+import Image from "next/image";
+import '@/app/globals.css';
 
-function Skill(image, alt) {
+const Skill = ({ url }) => {
     return (
-        <div>
-            <Image src={image} alt={alt} width={100} height={100} />
-        </div>
+        <Image className='skill-icon' src={url} width={50} height={50} />
     );
-}
+};
 
 export default Skill;
