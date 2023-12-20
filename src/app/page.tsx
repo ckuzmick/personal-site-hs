@@ -18,8 +18,8 @@ export default function Home() {
       </section>
       <section className='second'>
         <div className='second-text'>
-          <h2 className='header'>Skills:</h2>
-          <div className='skill-tooltip'></div>
+          <h2 className='header'>Skills</h2>
+          <div className='skill-tooltip'>Click on a skill!</div>
           <div className='skills'>
             <Skill 
               url='https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg'

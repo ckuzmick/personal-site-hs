@@ -108,3 +108,13 @@ h2 {
   transform: translate(0, -5px);
   cursor: pointer;
 }
+
+.skill-tooltip {
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  font-style: italic;
+  color: rgb(144, 144, 144);
+  margin: 30px;
+}
