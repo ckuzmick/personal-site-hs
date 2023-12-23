@@ -1,0 +1,79 @@
+[
+    {
+        "name": "HTML",
+        "icon": {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"
+        },
+        "block": "HTML Development, kinda"
+    },
+    {
+        "name": "CSS",
+        "icon": {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
+        },
+        "block": "CSS Development, kinda"
+    },
+    {
+        "name": "JavaScript",
+        "icon": {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+        },
+        "block": "JavaScript Development, kinda"
+    },
+    {
+        "name": "React",
+        "icon": {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+        },
+        "block": "React Development, kinda"
+    },
+    {
+        "name": "D3",
+        "icon": {
+            "image": "https://raw.githubusercontent.com/d3/d3-logo/master/d3.svg"
+        },
+        "block": "D3 Development, kinda"
+    },
+    {
+        "name": "Three.js",
+        "icon": {
+            "image": "https://global.discourse-cdn.com/standard17/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png"
+        },
+        "block": "Three.js Development, kinda"
+    },
+    {
+        "name": "Python",  
+        "icon": {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+        },
+        "block": "Python Development, kinda"
+    },
+    {
+        "name": "C++",
+        "icon": {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+        },
+        "block": "C++ Development, kinda"
+    },
+    {
+        "name": "After Effects",
+        "icon": {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg"
+        },
+        "block": "After Effects Development, kinda"
+    },
+    {
+        "name": "Photoshop",
+        "icon": {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"
+        },
+        "block": "Photoshop Development, kinda"
+    },
+    {
+        "name": "Illustrator",
+        "icon": {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg"
+        },
+        "block": "Illustrator Development, kinda"
+    }
+]

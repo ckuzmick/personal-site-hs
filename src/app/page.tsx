@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import HomeBox from '@/components/box'
 import Skill from '@/components/skill'
+import skillCards from '@/../public/skillCards.json'
+import changeSkill from '@/functions/changeSkill'
+import React from 'react'
 
 export default function Home() {
   return (
@@ -21,7 +24,7 @@ export default function Home() {
           <h2 className='header'>Skills</h2>
           <div className='skill-tooltip'>Click on a skill!</div>
           <div className='skills'>
-            <Skill 
+            {/* <Skill 
               url='https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg'
             />
             <Skill 
@@ -56,7 +59,14 @@ export default function Home() {
             />
             <Skill 
               url='https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg'
-            />
+            /> */}
+            {skillCards.map((skill, index) => (
+              <Skill 
+                key={index}
+                url={skill.icon.image}
+                index={index}
+              />
+            ))}
           </div>
         </div>
       </section>
