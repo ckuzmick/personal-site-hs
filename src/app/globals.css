@@ -114,7 +114,10 @@ h2 {
   align-items: center;
   justify-content: center;
   display: grid;
-  font-style: italic;
-  color: rgb(144, 144, 144);
   margin: 30px;
 }
+
+/* .placeholder-text {
+  font-style: italic;
+  color: rgb(144, 144, 144);
+} */
