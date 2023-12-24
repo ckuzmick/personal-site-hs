@@ -111,13 +111,20 @@ h2 {
 
 .skill-tooltip {
   height: 400px;
-  align-items: center;
-  justify-content: center;
-  display: grid;
   margin: 30px;
 }
 
-/* .placeholder-text {
+.grid-center {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.placeholder-text {
   font-style: italic;
   color: rgb(144, 144, 144);
-} */
+  margin: 0;
+  padding: 0;
+}

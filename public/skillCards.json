@@ -4,7 +4,7 @@
         "icon": {
             "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"
         },
-        "block": "HTML Development, kinda"
+        "block": "<ul><li>Item 1</li><li>Item 2</li></ul>"
     },
     {
         "name": "CSS",

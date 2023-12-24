@@ -7,7 +7,7 @@ import skillCards from '@/../public/skillCards.json'
 import { useState } from 'react'
 
 function Home() {
-  const [skillDescription, setSkillDescription] = useState({ __html: '<div class="placeholder-text">Click on a skill!<div>' })
+  const [skillDescription, setSkillDescription] = useState({ __html: '<div class="grid-center"><p class="placeholder-text">Click on a skill!</p></div>' })
 
   const changeSkill = (index: number) => {
     setSkillDescription({ __html: skillCards[index].block })
@@ -23,7 +23,6 @@ function Home() {
           </div>
         </div>
         <div className='top-circle'>
-          <HomeBox/>
         </div>
       </section>
       <section className='second'>
