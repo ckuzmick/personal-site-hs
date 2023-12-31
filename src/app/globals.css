@@ -82,7 +82,7 @@ h2 {
   text-align: center;
   font-size: 64px;
   font-weight: 800;
-  padding-top: 48px;
+  padding-top: 0;
   padding-left: 0;
 }
 
@@ -97,6 +97,9 @@ h2 {
   max-width: 600px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  justify-content: center;
 }
 
 .skill-icon {
@@ -112,10 +115,11 @@ h2 {
 .skill-tooltip {
   height: 350px;
   margin: 30px;
-  border-radius: 10px;
+  border-radius: 20px;
   border: .5px solid whitesmoke;
   box-shadow: 0 0 10px whitesmoke;
   padding: 20px;
+  margin-bottom: 40px !important;
 }
 
 .grid-center {

@@ -42,6 +42,11 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className='third'>
+        <div className='third-text'>
+          <h2 className='header'>Experience</h2>
+        </div>
+      </section>
     </main>
   )
 }
