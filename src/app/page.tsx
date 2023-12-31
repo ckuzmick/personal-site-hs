@@ -32,7 +32,7 @@ function Home() {
           <div className='skills'>
             {skillCards.map((skill, index) => ( 
               <Skill 
-                alt="{skill.name} icon"
+                alt={skill.name + " icon"}
                 key={index}
                 url={skill.icon.image}
                 index={index}
